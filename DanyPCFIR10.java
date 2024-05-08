@@ -37,11 +37,11 @@ getArrayPatternOf(4) => [[0, 0, 0, 1], [0, 0, 2, 1], [0, 3, 2, 1], [4, 3, 2,�
 
     private static void showMatrix (int [][] matriz){
 
-        for (int i = 0; i < matriz.length; i++) {       // matriz.length es el número de filas
-            for (int j = 0; j < matriz[i].length; j++) { // matriz[i].length es el número de columnas en la fila i
-                System.out.print(matriz[i][j] + " ");    // Imprime el elemento seguido de un espacio
+        for (int i = 0; i < matriz.length; i++) {       
+            for (int j = 0; j < matriz[i].length; j++) { 
+                System.out.print(matriz[i][j] + " ");    
             }
-            System.out.println();                       // Imprime una nueva línea después de cada fila
+            System.out.println();                       
         }
     }
 }
